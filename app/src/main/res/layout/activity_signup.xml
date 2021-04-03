@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignupActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Earn Money"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="20sp"
+        android:text="Register only by Invite"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingHorizontal="20sp"
+        android:text="know more"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="13dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter name"
+        android:textSize="14dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="20sp"
+        android:background="@drawable/field"
+        android:textColorHint="@color/dark_grey"
+        app:layout_constraintTop_toBottomOf="@+id/text6"
+        />
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter mobile number"
+        android:textSize="14dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="20sp"
+        android:background="@drawable/field"
+        android:textColorHint="@color/dark_grey"
+        app:layout_constraintTop_toBottomOf="@+id/et1"
+        />
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter friends referral code"
+        android:textSize="14dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="20sp"
+        android:background="@drawable/field"
+        android:textColorHint="@color/dark_grey"
+        app:layout_constraintTop_toBottomOf="@+id/et2"
+        />
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Create your id"
+        android:textSize="14dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="20sp"
+        android:background="@drawable/field"
+        android:textColorHint="@color/dark_grey"
+        app:layout_constraintTop_toBottomOf="@+id/et3"
+        />
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter email address"
+        android:textSize="14dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginHorizontal="40dp"
+        android:paddingHorizontal="20sp"
+        android:background="@drawable/field"
+        android:textColorHint="@color/dark_grey"
+        app:layout_constraintTop_toBottomOf="@+id/et4"
+        />
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I accept all T and C"
+        android:checked="true"
+        android:layout_marginTop="15sp"
+        app:layout_constraintStart_toStartOf="@+id/et5"
+        app:layout_constraintTop_toBottomOf="@+id/et5"
+        />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+       android:layout_marginTop="15sp"
+        android:background="@drawable/view_btn_bg"
+        android:layout_marginHorizontal="40dp"
+        android:text="Create free account"
+        android:textColor="@color/white"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb1" />
+
+    <TextView
+        android:id="@+id/btdemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingHorizontal="20sp"
+        android:text="HOME"
+        android:textAlignment="center"
+        android:textColor="#FF5722"
+        android:textSize="13dp"
+        android:paddingVertical="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

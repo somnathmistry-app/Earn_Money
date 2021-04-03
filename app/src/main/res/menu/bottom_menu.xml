@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/homeicon"/>
+    <item android:title="Apps"
+        android:id="@+id/apps"
+        android:icon="@drawable/appsicon"/>
+    <item android:title="BFSI"
+        android:id="@+id/bfsi"
+        android:icon="@drawable/bfsiicon"/>
+
+    <item android:title="Wallet"
+        android:id="@+id/wallet"
+        android:icon="@drawable/walleticons"/>
+    <item android:title="Account"
+        android:id="@+id/account"
+        android:icon="@drawable/accounticon"/>
+</menu>
